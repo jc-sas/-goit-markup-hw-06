@@ -246,7 +246,8 @@
     </main>
 
     <!-- Подвал -->
-		<footer class="footer">
+    <!-- Подвал -->
+    <footer class="footer">
       <div class="container footer-container">
         <div class="address-wrap">
           <a class="logo link logo-footer" href="index.html"
@@ -279,46 +280,72 @@
           <ul class="social-list footer-social-list list">
             <li class="social-item">
               <a class="social-link footer-social-link link" href="">
-								<svg
+                <svg
                   class="icon-social footer-icon-social"
                   width="20"
-                  height="20">
+                  height="20"
+                >
                   <use href="./images/sprite.svg#icon-instagram"></use>
-								</svg>
-							</a>
+                </svg>
+              </a>
             </li>
             <li class="social-item">
               <a class="social-link footer-social-link link" href="">
-								<svg
+                <svg
                   class="icon-social footer-icon-social"
                   width="20"
-                  height="20">
+                  height="20"
+                >
                   <use href="./images/sprite.svg#icon-twitter"></use>
-								</svg>
-							</a>
+                </svg>
+              </a>
             </li>
             <li class="social-item">
               <a class="social-link footer-social-link link" href="">
-								<svg
+                <svg
                   class="icon-social footer-icon-social"
                   width="20"
-                  height="20">
+                  height="20"
+                >
                   <use href="./images/sprite.svg#icon-facebook"></use>
-								</svg>
-							</a>
+                </svg>
+              </a>
             </li>
             <li class="social-item">
               <a class="social-link footer-social-link link" href="">
-								<svg
+                <svg
                   class="icon-social footer-icon-social"
                   width="20"
-                  height="20">
+                  height="20"
+                >
                   <use href="./images/sprite.svg#icon-linkedin"></use>
-								</svg>
-							</a>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
+
+        <!-- Форма подписки -->
+        <form class="form-sign" name="subscription">
+          <p class="footer-title">Подпишитесь на рассылку</p>
+          <div class="form-wrap">
+            <label class="form-label">
+              <input
+                class="form-sign-input"
+                type="email"
+                name="mail"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="top-btn form-button btn" type="submit">
+              Подписаться
+              <svg class="icon-sign" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
