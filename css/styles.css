@@ -539,9 +539,9 @@ img {
 }
 
 .form-sign-input {
-  margin-right: 12px;
   width: 358px;
   height: 50px;
+  margin-right: 12px;
   padding: 15px 16px;
   color: var(--lightColor);
   background-color: transparent;
@@ -553,7 +553,6 @@ img {
 .form-button {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .icon-sign {
